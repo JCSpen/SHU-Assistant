@@ -40,7 +40,7 @@ namespace SHU_Assistant.Controllers
         public string[] intents = new string[]{"AI beginners", "AI Intermediate", "Cloud beginners", "Cloud intermediate", "Cyber Security beginners",
         "Cyber Security intermediate", "Design Thinking beginners","Design Thinking intermediate", "AI credentials", "Cloud credentials",
         "Cyber Security credentials", "Design Thinking credentials", "AI Careers", "Cloud Careers", "Cyber Security Careers"};
-        public string filePath = Path.GetFullPath("RecomandationDB.csv");
+        public string filePath = @"RecomandationDB.csv";
 
         public HomeController(ILogger<HomeController> logger)
         {
